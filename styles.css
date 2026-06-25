@@ -1,1 +1,69 @@
 /* your code here */
+
+body {
+    background-color: #00e676;
+    font-family: Arial, sans-serif;
+}
+
+.product{
+	width: 900px;
+	margin: 50px auto;
+	background-color: white;
+	display: flex;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+.product__photo{
+	flex: 1;
+}
+
+.photo-container {
+    background-color: #b2ff00;
+    border-radius: 10px;
+}
+
+.photo-main img {
+    width: 100%;
+}
+
+.photo-album ul {
+	 display:flex;
+	list-style:none;
+	padding: 10px;
+	justify-content: space-around;
+}
+
+.photo-album img {
+    width: 60px;
+}
+
+
+.product__info {
+    flex: 1;
+    padding: 20px;
+}
+
+.price {
+    color: red;
+    font-size: 50px;
+    margin: 20px 0;
+}
+
+.variant img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.description ul {
+    padding-left: 20px;
+}
+
+button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
